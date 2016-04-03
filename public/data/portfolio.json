@@ -4,7 +4,7 @@
     "link":"",
     "title":"전자책 위젯",
     "date":"2014.02.12 ~ 2014.04.30",
-    "introduce":"Oxford 전자책 안에서 HTML기반으로 만들어진 위젯을 띄워주는 기능이 포함돼 있습니다. 위젯은 동영상이나 오디오를 듣고 문제를 풀고 채점하 수 있는 기능을 포함하고 있습니다.",
+    "introduce":"Oxford 전자책 안에는 HTML기반으로 만들어진 위젯을 띄워주는 기능이 포함돼 있습니다. 위젯은 동영상이나 오디오를 듣고 문제를 풀고 채점할 수 있는 기능을 포함하고 있습니다.",
     "cover_image":"public/img/widget/widget_1.png",
     "screenshots":[
       "public/img/widget/widget_3.png",
@@ -19,7 +19,7 @@
     "link":"",
     "title":"Spintools (전자책 저작툴)",
     "date":"2014.05.01 ~",
-    "introduce":"전자책을 저작하는 자사 저작툴 입니다.\n웹상에서 책을 생성하여 컨텐츠를 저작, 배포 하는 기능을 포함하고 있습니다. 여거서 저작된 책들은 자사 뷰어에 보여지게 됩니다.",
+    "introduce":"전자책을 저작하는 자사 저작툴 입니다.\n웹상에서 책을 생성하여 컨텐츠를 저작, 배포 하는 기능을 포함하고 있습니다. 저작된 책들은 자사 뷰어에서 보여지게 됩니다.",
     "cover_image":"public/img/spintool/spintool.png",
     "screenshots":[
       "public/img/spintool/spintool1.png",
@@ -32,9 +32,9 @@
   {
     "id":"webviewer",
     "link":"",
-    "title":"Oxford Webviewer",
+    "title":"Oxford WebViewer",
     "date":"2014.06.01 ~",
-    "introduce":"저작툴에서 만든 책을 웹상에서 볼 수 있도록 띄워주는 뷰어 입니다.\n뷰어에 포함 된 기능으로는 검색, 북마크, 채점, 답안보기, 팬 드로잉, 텍스트 메모, 음성 메모, 줌인, 줌아웃, thumbnail view(전체, 메모, 북마크), 스크린샷 찍기, 뷰 모드 설정(One page view, Two page view, Scroll view), 페이지 점프, 페이지 뒤로가기, 데이터 싱크(IOS, Android 에서 동시 접속시 데이터 merge) 기능들이 포함돼 있습니다.",
+    "introduce":"저작툴에서 만든 책을 웹에서 볼 수 있게 해주는 뷰어입니다.\n뷰어에서는 검색, 북마크, 채점, 답안보기, 팬 드로잉, 텍스트 메모, 음성 메모, 줌인, 줌아웃, Thumbnail view(전체, 메모, 북마크), 스크린샷 찍기, 뷰 모드 설정(One page view, Two page view, Scroll view), 페이지 점프, 페이지 뒤로가기, 데이터 싱크(iOS, Android 에서 동시 접속시 데이터 merge) 기능을 사용할 수 있습니다.",
     "cover_image":"public/img/viewer/viewer.png",
     "screenshots":[
       "public/img/viewer/viewer_search.png",
@@ -51,7 +51,7 @@
     "link":"",
     "title":"Oxford CMS",
     "date":"2014.06.01 ~",
-    "introduce":"저작툴에서 저작된 책의 메타 데이터를 관리하고 서비스에 필요한 API들이 담겨 있습니다.\n책을 코드로 판매할시 코드를 생성하는 기능을 포함하고 있습니다.",
+    "introduce":"저작툴에서 저작된 책의 메타데이터를 관리하고 B2B 판매를 위한 쿠폰 코드를 생성합니다.\n또한, 서비스에서 필요한 정보를 제공합니다.",
     "cover_image":"public/img/olb_cms/cms.png",
     "screenshots":[
       "public/img/olb_cms/cms_1.png",
@@ -67,7 +67,7 @@
     "link":"https://www.oxfordlearnersbookshelf.com/",
     "title":"Oxford Bookshelf",
     "date":"2015.12.01 ~",
-    "introduce":"이전 까지 웹에서 Bookshelf는 옥스포드에서 담당하고 Viewer만 맡아왔지만, 기술 부족과 관리 문제로 Version4가 개발되는 시점부터 넘겨 받게 되었습니다.\n새롭게 추가된 기능으로 책을 단위별로 묶에서 기간을 두고 대여하는 기능과 책을 어느정도 읽었는지진행 상태를 보여주는 기능, 학습상태를 학부모나 선생님에게 보고 할 수 있도록 학습 데이터들을다운 받을 수 있는 기능이 추가되었습니다.\n\n현재 Version4는 4월 중 적용될 예정입니다.",
+    "introduce":"이미 개발되어 있는 Bookshelf를 Release 4 부터 이어받아 개발하였습니다.\n새롭게 추가된 기능으로는 책을 단위별로 묶어서 기간을 두고 대여하는 기능, 책 읽기 진행 상태를 보여주는 기능 그리고 학습상태를 학부모나 선생님에게 보고 할 수 있도록 학습 데이터들을 다운 받는 기능이 추가되었습니다.\n\n현재 Release 4는 4월 중 적용될 예정입니다.",
     "cover_image":"public/img/bookshelf/icon.png",
     "screenshots":[
       "public/img/bookshelf/bookshelf_1.png",
@@ -85,7 +85,7 @@
     "link":"https://www.travalloon.com",
     "title":"Travalloon Web Version",
     "date":" 2015,06.01 ~ 2015.07.31",
-    "introduce":"Travalloon은 여행자들과 여행에 관심이 있는 사람들을 위한 커뮤니티 서비스 입니다.\n그들을 위한 커뮤니티 기능과 위치기반 동영상 서비스를 운영중 입니다.",
+    "introduce":"Travalloon은 여행자들과 여행에 관심이 있는 사람들을 위한 커뮤니티 서비스 입니다.\n그들을 위한 커뮤니티 기능과 위치기반 동영상 서비스를 운영중 입니다.\n동영상 서비스는 KBS의 걸어서 세계속으로 동연상을 연동 하여 서비스되고 있습니다.",
     "cover_image":"public/img/travalloon/icon.png",
     "screenshots":[
       "public/img/travalloon/travalloon_1.png",
@@ -104,7 +104,7 @@
     "link":"",
     "title":"Travalloon CMS",
     "date":"2015.08.01 ~ 2015.08.31",
-    "introduce":"Travalloon 운영 및 관리를 쉽게 할 수 있도록 하는 컨텐츠 관리 시스템 입니다.",
+    "introduce":"Travalloon의 운영 및 관리를 쉽게 하기 위한 컨텐츠 관리 시스템 입니다.",
     "cover_image":"public/img/travalloon_cms/travalloon_cms.png",
     "screenshots":[
 
@@ -118,7 +118,7 @@
     "link":"",
     "title":"KBS EverywhereK CMS",
     "date":"2015.09.01~ 2015.09.30",
-    "introduce":"트레벌룬 서비스에 Watch메뉴가 동영상 서비스로 운영되고 있습니다.\n동영상들은 주로 KBS 걸어서 세계속으로 동영상들로 구성되어 있는데\nKBS쪽에서 Travalloon 서비스에 올라가는 동영상 관리를 위해 시스템이 구축되었습니다.",
+    "introduce":"Travalloon의 Watch 메뉴에는 'KBS 걸어서 세계속으로' 동영상들이 보여집니다.\n이 동영상들을 관리하기 위해 시스템이 구축되었습니다.",
     "cover_image":"public/img/kbs_cms/kbs_cms.png",
     "screenshots":[
 
@@ -132,7 +132,7 @@
     "link":"https://itunes.apple.com/kr/app/bipis-aeb-kochi-chejung-gye/id747585014?mt=8",
     "title":"Bfit App Body Scale",
     "date":"2013.01.21 ~ 2013.03.31",
-    "introduce":"체중계에서 몸무게를 측정하면 측정 데이터를 어플리케이션으로 전송 bmi, bmr을 분석하여 보여주고 데이터를 관리한는 App입니다.\n데이터 전송을 블루투스나, 인터넷 통신을 사용하지 않고 DTMF음파 신호를 사용해 데이터를 전달하는 제품입니다.",
+    "introduce":"체중계에서 몸무게를 측정하면 측정 데이터를 어플리케이션으로 전송합니다.\n어플리케이션에서는 bmi, bmr을 분석하여 보여주고 데이터를 관리할 수 있습니다.\n블루투스나, 인터넷 통신을 사용하지 않고 DTMF 음파 신호를 사용하여 데이터를 전달하는 제품입니다.",
     "cover_image":"public/img/appbody/bfit.png",
     "screenshots":[
       "public/img/appbody/Screenshot_69.png",
@@ -144,7 +144,7 @@
       "public/img/appbody/Screenshot_76.png",
       "public/img/appbody/Screenshot_79.png"
     ],
-    "work":"Sencha touch framework와 Cordova(PhoneGap)을 사용하여 Application 개발\nDTMF음파통신 모듈은 CTO분께서 PhoneGap 플러그인 으로 개발 하였고 저는 통신 최적화 작업을 진행 하였습니다.\n체중계 정품 인증 서버를 Node.js와 MongoDB를 사용하여 개발",
+    "work":"Sencha touch framework와 Cordova(PhoneGap)을 사용하여 Application 개발\nDTMF 음파통신 모듈은 CTO가 PhoneGap 플러그인으로 개발 하였고 저는 통신 최적화 작업을 진행 하였습니다.\n체중계 정품 인증 서버를 Node.js와 MongoDB를 사용하여 개발 했습니다.",
     "range":"UI설계, Front-end 와 Back-end 개발",
     "skills":"Front-end: Javascript, Sencha touch, Cordova(PhoneGap) CSS, HTML\nBack-end: Node.js, MongoDB"
   },
@@ -153,7 +153,7 @@
     "link":"",
     "title":"Bfit Balance Body Scale",
     "date":"2013.04.01 ~ 2013.04.30",
-    "introduce":"Bfit App Body Scale과 유사하나 좌, 우 체중의 차이를 측정하는 Balance기능을 추가했습니다.\n그리고 DTMF통신이 아닌 고주파(비가청 음파)를 사용하여 데이터를 전달합니다.\n이 제품은 혈압계, 혈당계에서 측정된 데이터를 같이 관리하여 U-Health를 추구하는 제품 이었습니다. 그래서 측정 데이터는 모두 서버에 저장됩니다",
+    "introduce":"Bfit App Body Scale과 유사하나 좌, 우 체중의 차이를 측정하는 Balance 기능이 추가되었습니다.\n그리고 DTMF 통신이 아닌 고주파(비가청 음파)를 사용하여 데이터를 전달합니다.\n이 제품은 혈압계, 혈당계에서 측정된 데이터를 같이 관리하여 U-Health를 추구하는 제품입니다. 그래서 측정 데이터는 모두 서버에 저장됩니다.",
     "cover_image":"public/img/balance/bfit_bal.png",
     "screenshots":[
       "public/img/balance/Screenshot_80.png",
@@ -169,7 +169,7 @@
     "link":"http://www.bfit.kr/",
     "title":"Bfit Scale 홈페이지",
     "date":"2013.07.01 ~ 2013.07.31",
-    "introduce":"Bfit App Body Scale 제품 홈페이지를 반응형 웹으로 만들었습니다.\n현재 홈페이지는 리뉴얼 되어 있는 상태 입니다.",
+    "introduce":"Bfit App Body Scale 제품 홈페이지를 반응형 웹으로 만들었습니다.\n현재 홈페이지는 리뉴얼 되어 있는 상태입니다.",
     "cover_image":"public/img/homepage/1.png",
     "screenshots":[
       "public/img/homepage/1.png",
@@ -184,7 +184,7 @@
     "link":"https://itunes.apple.com/kr/app/nanosoft-palm-remote-manager/id771329348?mt=8",
     "title":"NanoPRM",
     "date":"2013.09.01 ~ 2013.10.30",
-    "introduce":"휴대폰에서 비닐하우스 내부를 실시간으로 관찰하고 원격제어하는 제품입니다.\n비닐하우스를 수동제어 및 자동(온도제어, 시간제어)제어와 할 수 있으며 이상현상(고온, 빗물감지)이 발생하면 사용자 휴대폰으로 경고 문자가 발송됩니다.\n(주)우성하이텍의 콘트롤러제품과 연동하여 제품을 개발 했습니다.",
+    "introduce":"휴대폰에서 비닐하우스 내부를 실시간으로 관찰하고 원격제어하는 제품입니다.\n비닐하우스를 수동제어 및 자동(온도제어, 시간제어)제어 할 수 있으며 이상현상(고온, 빗물감지)이 발생되면 사용자 휴대폰으로 경고 문자가 발송됩니다.\n(주)우성하이텍의 컨트롤러 제품과 연동하여 개발했습니다.",
     "cover_image":"public/img/prm/prm.png",
     "screenshots":[
       "public/img/prm/Screenshot_60.png",
@@ -197,7 +197,7 @@
       "public/img/prm/Screenshot_67.png"
     ],
     "work":"Sencha touch framework와 Cordova(PhoneGap)을 사용하여 Application 개발\nNode.js와 MongoDB로 만들어진 서버 유지보수",
-    "range":"프로젝트 담장자 퇴사로 맡게된 프로젝트 입니다.\nBack-end는 완성된 상태였고 Front-end는 미완성 상태 였습니다.\nBack-end는 기능 추가와 유지보수를 하였고 Front-end는 기존 소스를 바탕으로 다시 개발 하였습니다.",
+    "range":"Back-end가 완성된 상태로 이어받아 개발하였습니다.\nBack-end는 기능 추가와 유지보수를 하였고 Front-end는 기존 소스를 바탕으로 다시 개발 하였습니다.",
     "skills":"Front-end: Javascript, Sencha touch, Cordova(PhoneGap), CSS, HTML\nBack-end: Node.js, MongoDB"
   },
   {
@@ -205,7 +205,7 @@
     "link":"",
     "title":"영업왕",
     "date":"2012.08.01 ~ 2012.10.30",
-    "introduce":"영업왕은 영업사원들의 일정관리와 고객관리를 도와주는 어플리케이션 입니다. 영업사원인 여자친구를 위해 만들게 되었습니다.\n현재 관리가 안되고 있는 상태라 구글, 애플 스토어에서 내렸습니다.",
+    "introduce":"영업왕은 영업사원들의 일정관리와 고객관리를 도와주는 어플리케이션입니다. 영업사원인 여자친구를 위해 만들게 되었습니다. 현재 관리가 안되고 있는 상태라 Google Play Store와 App Store에서 내렸습니다.",
     "cover_image":"public/img/bizking/bizking.png",
     "screenshots":[
       "public/img/bizking/Screenshot_23.png",
@@ -219,7 +219,7 @@
       "public/img/bizking/Screenshot_69.png",
       "public/img/bizking/Screenshot_74.png"
     ],
-    "work":"처음 서비스를 기획하고 UI설계, jQuery mobile을 사용하여 Front-end단 작업을 하였고 Back-end는 JSP와 MySql을 사용하여 개발 하였습니다.",
+    "work":"서비스를 기획하고 UI를 설계하였습니다.\njQuery mobile을 사용하여 Front-end단 작업을 하였고 Back-end는 JSP와 MySql을 사용하여 개발하였습니다.",
     "range":"기획부터 UI설계, DB설계, Front-end, Back-end 모두 개발 했습니다.",
     "skills":"Front-end: HTML, CSS, Javascript, jQuery, jQueryMobile, Cordova(PhoneGap)\nBack-end: JSP, MySql"
   }
