@@ -1,0 +1,538 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', 'AppleSDGothic', '나눔고딕', 'Dotum', '돋움', sans-seri; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+img {
+  border: 0; }
+
+article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary {
+  display: block; }
+
+header {
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  top: 0;
+  left: 0;
+  z-index: 100;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s; }
+  header .wrapper {
+    max-width: 1024px;
+    margin: 0 auto; }
+    header .wrapper .contents {
+      width: 90%;
+      margin: 0 auto; }
+      header .wrapper .contents .title {
+        float: left;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px; }
+      header .wrapper .contents .nav-main {
+        float: right;
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px; }
+        header .wrapper .contents .nav-main h2 {
+          display: none; }
+        header .wrapper .contents .nav-main .nav-list .item {
+          display: inline-block;
+          margin: 0 10px; }
+          header .wrapper .contents .nav-main .nav-list .item:hover a {
+            padding: 2px 0;
+            border-bottom: 1px solid #999; }
+          header .wrapper .contents .nav-main .nav-list .item.active a {
+            padding: 2px 0;
+            border-bottom: 1px solid #999; }
+
+#about {
+  padding: 51px 0 0 0;
+  margin: 0 auto; }
+  #about h2 {
+    display: none; }
+  #about .wrapper {
+    max-width: 1024px;
+    margin: 0 auto; }
+    #about .wrapper .contents {
+      width: 90%;
+      margin: 0 auto; }
+      #about .wrapper .contents .copy {
+        font-weight: bold; }
+        @media screen and (min-width: 920px) {
+          #about .wrapper .contents .copy {
+            padding: 13% 0 13% 12%; } }
+        @media screen and (max-width: 919px) {
+          #about .wrapper .contents .copy {
+            padding: 13% 0; } }
+        @media screen and (min-width: 860px) {
+          #about .wrapper .contents .copy {
+            font-size: 80px; } }
+        @media screen and (min-width: 620px) and (max-width: 859px) {
+          #about .wrapper .contents .copy {
+            font-size: 70px; } }
+        @media screen and (min-width: 495px) and (max-width: 619px) {
+          #about .wrapper .contents .copy {
+            font-size: 60px; } }
+        @media screen and (min-width: 400px) and (max-width: 494px) {
+          #about .wrapper .contents .copy {
+            font-size: 50px; } }
+        @media screen and (max-width: 399px) {
+          #about .wrapper .contents .copy {
+            font-size: 37px; } }
+      #about .wrapper .contents article {
+        padding: 0 0 40px 0;
+        overflow: hidden; }
+        #about .wrapper .contents article:last-child {
+          padding: 0 0 7% 0; }
+        #about .wrapper .contents article .link-portfolio {
+          color: #aaa; }
+        @media screen and (min-width: 920px) {
+          #about .wrapper .contents article .subject {
+            float: left;
+            width: 12%;
+            font-weight: bold; }
+          #about .wrapper .contents article .contents {
+            float: left;
+            width: 88%;
+            font-size: 14px;
+            line-height: 30px;
+            margin: -5px 0 0 0;
+            color: #5a5a5a; } }
+        @media screen and (max-width: 919px) {
+          #about .wrapper .contents article .subject {
+            font-weight: bold;
+            padding: 0 0 4px 0; }
+          #about .wrapper .contents article .contents {
+            width: 100%;
+            font-size: 14px;
+            line-height: 24px;
+            color: #5a5a5a; } }
+        #about .wrapper .contents article.education .contents .item .college {
+          font-weight: bold;
+          color: #000;
+          font-size: 15px; }
+        #about .wrapper .contents article.experience .contents .item:first-child {
+          padding: 0 0 30px 0; }
+        #about .wrapper .contents article.experience .contents .item .company {
+          font-weight: bold;
+          color: #000;
+          font-size: 15px; }
+        #about .wrapper .contents article.experience .contents .item .job {
+          font-size: 12px;
+          color: #858585; }
+        #about .wrapper .contents article.i-love .contents {
+          box-sizing: border-box;
+          padding: 0 0 0 17px; }
+          #about .wrapper .contents article.i-love .contents .item {
+            list-style: circle; }
+        #about .wrapper .contents article.i-have .contents {
+          box-sizing: border-box;
+          padding: 0 0 0 17px; }
+          #about .wrapper .contents article.i-have .contents .item {
+            list-style: circle; }
+        #about .wrapper .contents article.skills .contents {
+          box-sizing: border-box;
+          padding: 0 0 0 17px; }
+          #about .wrapper .contents article.skills .contents .item {
+            list-style: circle; }
+        #about .wrapper .contents article h3 {
+          display: none; }
+
+#portfolio h2 {
+  display: none; }
+
+#portfolio .background {
+  background: #fff; }
+  #portfolio .background.gray {
+    background: #f4f4f4; }
+  #portfolio .background .wrapper {
+    max-width: 1024px;
+    margin: 0 auto; }
+    #portfolio .background .wrapper .contents {
+      width: 90%;
+      margin: 0 auto;
+      padding: 7% 0; }
+      #portfolio .background .wrapper .contents .company {
+        padding: 0 0 20px 0; }
+        #portfolio .background .wrapper .contents .company .name {
+          font-weight: bold;
+          font-size: 22px; }
+        #portfolio .background .wrapper .contents .company h3 {
+          display: none; }
+      #portfolio .background .wrapper .contents .list {
+        width: 100%;
+        overflow: hidden;
+        padding: 2px; }
+        #portfolio .background .wrapper .contents .list h4 {
+          display: none; }
+        #portfolio .background .wrapper .contents .list .item {
+          float: left;
+          border-radius: 4px;
+          padding: 4px;
+          box-shadow: 0 0 4px #888;
+          margin: 0 2.3% 2.3% 0;
+          box-sizing: border-box;
+          background: #fff;
+          -webkit-transition: all .5s;
+          -moz-transition: all .5s;
+          transition: all .5s; }
+          #portfolio .background .wrapper .contents .list .item .thumb {
+            overflow: hidden;
+            position: relative; }
+            #portfolio .background .wrapper .contents .list .item .thumb img {
+              width: 100%;
+              position: absolute;
+              left: -100%;
+              right: -100%;
+              top: -100%;
+              bottom: -100%;
+              margin: auto;
+              min-height: 100%;
+              min-width: 100%; }
+          #portfolio .background .wrapper .contents .list .item .description {
+            font-size: 14px;
+            color: #5a5a5a;
+            padding: 8px; }
+            #portfolio .background .wrapper .contents .list .item .description .title {
+              font-weight: bold; }
+          @media screen and (min-width: 890px) {
+            #portfolio .background .wrapper .contents .list .item {
+              width: 23.1%; }
+              #portfolio .background .wrapper .contents .list .item:nth-child(4n) {
+                margin: 0 0 2.3% 0; } }
+          @media screen and (min-width: 620px) and (max-width: 889px) {
+            #portfolio .background .wrapper .contents .list .item {
+              width: 31.7%; }
+              #portfolio .background .wrapper .contents .list .item:nth-child(3n) {
+                margin: 0 0 2.3% 0; } }
+          @media screen and (min-width: 415px) and (max-width: 619px) {
+            #portfolio .background .wrapper .contents .list .item {
+              width: 48.6%; }
+              #portfolio .background .wrapper .contents .list .item:nth-child(2n) {
+                margin: 0 0 2.3% 0; } }
+          @media screen and (max-width: 414px) {
+            #portfolio .background .wrapper .contents .list .item {
+              width: 100%;
+              margin: 0 0 5.5% 0; } }
+
+#contact {
+  padding: 50px 0;
+  background: #aaa;
+  color: #343434; }
+  #contact h2 {
+    font-size: 20px; }
+  #contact .wrapper {
+    max-width: 1024px;
+    margin: 0 auto; }
+    #contact .wrapper .contents {
+      width: 90%;
+      margin: 0 auto; }
+      #contact .wrapper .contents .sns {
+        font-size: 14px;
+        text-align: center;
+        color: #777777; }
+        #contact .wrapper .contents .sns .item {
+          display: inline-block;
+          margin: 20px 10px; }
+          #contact .wrapper .contents .sns .item a {
+            color: #343434; }
+      #contact .wrapper .contents .contact-me {
+        font-size: 14px;
+        text-align: center;
+        color: #343434; }
+        #contact .wrapper .contents .contact-me .item {
+          display: inline-block;
+          margin: 10px 10px; }
+          #contact .wrapper .contents .contact-me .item a {
+            color: #343434;
+            text-decoration: underline; }
+      #contact .wrapper .contents #send-email {
+        max-width: 300px;
+        margin: 0 auto; }
+        #contact .wrapper .contents #send-email label {
+          margin: 15px 0 0 0;
+          display: block;
+          font-weight: bold; }
+        #contact .wrapper .contents #send-email #y-name {
+          display: block;
+          padding: 5px;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 7px 0 0 0;
+          font-size: 14px;
+          border: 1px solid #ccc; }
+        #contact .wrapper .contents #send-email #y-email {
+          display: block;
+          padding: 5px;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 7px 0 0 0;
+          font-size: 14px;
+          border: 1px solid #ccc; }
+        #contact .wrapper .contents #send-email #y-message {
+          width: 100%;
+          height: 100px;
+          margin: 7px 0 0 0;
+          padding: 5px;
+          box-sizing: border-box;
+          font-size: 14px;
+          border: 1px solid #ccc;
+          resize: none; }
+        #contact .wrapper .contents #send-email input[type=submit] {
+          display: block;
+          width: 85px;
+          height: 35px;
+          background: #FF4A4A;
+          border: 1px solid red;
+          color: #fff;
+          margin: 7px auto 0;
+          cursor: pointer; }
+          #contact .wrapper .contents #send-email input[type=submit]:hover {
+            background: #e94c4c; }
+
+#portfolio-info {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 101;
+  background: rgba(84, 84, 84, 0.5); }
+  #portfolio-info .wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    max-width: 900px;
+    margin: auto; }
+    @media screen and (min-width: 720px) {
+      #portfolio-info .wrapper {
+        height: 95%; } }
+    @media screen and (max-width: 719px) {
+      #portfolio-info .wrapper {
+        height: 100%; } }
+    #portfolio-info .wrapper .contents {
+      background: #fff;
+      height: 100%;
+      margin: auto;
+      box-shadow: 0 0 10px #545454;
+      border-radius: 4px;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding: 20px;
+      -webkit-overflow-scrolling: touch; }
+      @media screen and (min-width: 720px) {
+        #portfolio-info .wrapper .contents {
+          width: 95%; } }
+      @media screen and (max-width: 719px) {
+        #portfolio-info .wrapper .contents {
+          width: 100%; } }
+      #portfolio-info .wrapper .contents .intro {
+        overflow: hidden; }
+        #portfolio-info .wrapper .contents .intro .description {
+          position: relative; }
+          @media screen and (min-width: 720px) {
+            #portfolio-info .wrapper .contents .intro .description {
+              float: left;
+              width: 60%;
+              margin: 20px; } }
+          @media screen and (max-width: 719px) {
+            #portfolio-info .wrapper .contents .intro .description {
+              width: 100%; } }
+          #portfolio-info .wrapper .contents .intro .description .title {
+            font-size: 22px;
+            font-weight: bold;
+            padding: 0 0 10px 0; }
+            #portfolio-info .wrapper .contents .intro .description .title .link {
+              width: 25px;
+              position: absolute;
+              margin: 1px 0 0 7px; }
+              #portfolio-info .wrapper .contents .intro .description .title .link img {
+                width: 100%; }
+          #portfolio-info .wrapper .contents .intro .description .date {
+            border-top: 1px solid #ccc;
+            padding: 10px 0;
+            font-size: 15px;
+            color: #666; }
+          #portfolio-info .wrapper .contents .intro .description .introduce {
+            line-height: 22px;
+            font-size: 14px;
+            color: #666;
+            white-space: pre-line; }
+          #portfolio-info .wrapper .contents .intro .description .close {
+            width: 32px;
+            position: absolute;
+            top: -2px;
+            right: 0;
+            z-index: 102; }
+            @media screen and (min-width: 720px) {
+              #portfolio-info .wrapper .contents .intro .description .close {
+                display: none; } }
+            @media screen and (max-width: 719px) {
+              #portfolio-info .wrapper .contents .intro .description .close {
+                display: block; } }
+            #portfolio-info .wrapper .contents .intro .description .close img {
+              width: 100%; }
+        #portfolio-info .wrapper .contents .intro .cover {
+          float: left; }
+          @media screen and (min-width: 720px) {
+            #portfolio-info .wrapper .contents .intro .cover {
+              width: calc(40% - 40px); } }
+          @media screen and (max-width: 719px) {
+            #portfolio-info .wrapper .contents .intro .cover {
+              width: 100%;
+              padding: 20px 0 0 0; } }
+          #portfolio-info .wrapper .contents .intro .cover img {
+            width: 100%; }
+      #portfolio-info .wrapper .contents .screenshots {
+        padding: 20px 0; }
+        #portfolio-info .wrapper .contents .screenshots .list {
+          overflow: hidden; }
+          @media screen and (min-width: 720px) {
+            #portfolio-info .wrapper .contents .screenshots .list .item {
+              float: left;
+              width: calc(50% - 10px); }
+              #portfolio-info .wrapper .contents .screenshots .list .item:nth-child(2n+1) {
+                margin: 0 20px 15px 0; } }
+          @media screen and (max-width: 719px) {
+            #portfolio-info .wrapper .contents .screenshots .list .item {
+              width: 100%;
+              padding: 0 0 20px 0; } }
+          #portfolio-info .wrapper .contents .screenshots .list .item img {
+            width: 100%; }
+      #portfolio-info .wrapper .contents .work .title {
+        font-weight: bold; }
+      #portfolio-info .wrapper .contents .work .description {
+        padding: 5px 0 0 0;
+        font-size: 14px;
+        color: #666;
+        white-space: pre-line;
+        line-height: 22px; }
+      #portfolio-info .wrapper .contents .range {
+        padding: 20px 0 0 0; }
+        #portfolio-info .wrapper .contents .range .title {
+          font-weight: bold; }
+        #portfolio-info .wrapper .contents .range .description {
+          padding: 5px 0 0 0;
+          font-size: 14px;
+          color: #666;
+          white-space: pre-line;
+          line-height: 22px; }
+      #portfolio-info .wrapper .contents .skills {
+        padding: 20px 0 0 0; }
+        #portfolio-info .wrapper .contents .skills .title {
+          font-weight: bold; }
+        #portfolio-info .wrapper .contents .skills .description {
+          padding: 5px 0 0 0;
+          font-size: 14px;
+          color: #666;
+          white-space: pre-line;
+          line-height: 22px; }
+
+.animated {
+  -webkit-animation-duration: .8s;
+  animation-duration: .8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; }
+
+.delay-1 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.delay-1-2 {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s; }
+
+.delay-1-4 {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s; }
+
+.delay-1-6 {
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s; }
+
+.delay-1-8 {
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s; }
+
+.delay-2 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-30px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft; }
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(30px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight; }
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
