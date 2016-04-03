@@ -27,7 +27,8 @@ var ViewPortfolioModal = Backbone.View.extend({
 	events:{
 		'click #portfolio-info .close':'closeModal',
 		'click #portfolio-info':'closeModal',
-		'click #portfolio-info .contents':'blockEvent'
+		'click #portfolio-info .contents':'blockEvent',
+		'touchmove #portfolio-info .contents':'blockEvent'
 	},
 	closeModal:function(){
 		console.log('closeModal');
@@ -40,7 +41,6 @@ var ViewPortfolioModal = Backbone.View.extend({
 	},
 	blockEvent:function(e){
 		e.stopPropagation();
-		e.preventDefault();
 	},
 	getContent:function(){
 		console.log(this.id);
