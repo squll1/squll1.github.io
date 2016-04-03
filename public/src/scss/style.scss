@@ -359,7 +359,6 @@ header{
 
 #contact{
   padding: 50px 0;
-  background: #aaa;
   color: #343434;
   h2{
     font-size: 20px;
@@ -667,6 +666,14 @@ header{
 .delay-2{
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
+}
+.delay-2-2{
+  -webkit-animation-delay: 2.2s;
+  animation-delay: 2.2s;
+}
+.delay-2-4{
+  -webkit-animation-delay: 2.4s;
+  animation-delay: 2.4s;
 }
 
 @-webkit-keyframes fadeInLeft {
