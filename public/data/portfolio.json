@@ -4,7 +4,7 @@
     "link":"",
     "title":"전자책 위젯",
     "date":"2014.02.12 ~ 2014.04.30",
-    "introduce":"Oxford 전자책 안에는 HTML기반으로 만들어진 위젯을 띄워주는 기능이 포함돼 있습니다. 위젯은 동영상이나 오디오를 듣고 문제를 풀고 채점할 수 있는 기능을 포함하고 있습니다.",
+    "introduce":"Oxford 전자책 안에는 HTML기반으로 만들어진 위젯을 띄워주는 기능이 포함돼 있습니다. 위젯은 동영상이나 오디오를 들으면서 문제를 풀고 채점할 수 있는 기능을 포함하고 있습니다.",
     "cover_image":"public/img/widget/widget_1.png",
     "screenshots":[
       "public/img/widget/widget_3.png",
@@ -22,10 +22,9 @@
     "introduce":"전자책을 저작하는 자사 저작툴 입니다.\n웹상에서 책을 생성하여 컨텐츠를 저작, 배포 하는 기능을 포함하고 있습니다. 저작된 책들은 자사 뷰어에서 보여지게 됩니다.",
     "cover_image":"public/img/spintool/spintool.png",
     "screenshots":[
-      "public/img/spintool/spintool1.png",
-      "public/img/spintool/spintool2.png"
+
     ],
-    "work":"저작자가 사용하기 편리하도록 저작툴 수정 및 신규 기능 개발",
+    "work":"저작자가 사용하기 편리하도록 저작툴 수정 및 신규 기능 개발\n",
     "range":"입사시 시스템은 구축되어 있었습니다.\n새로운 기능 개발과 사용자의 편의성을 고려하여 수정 작업을 하였습니다.\nFront-end, Back-end 모두 개발하였습니다.",
     "skills":"Front-end: HTML, CSS, Javascript, jQuery\nBack-end: PHP"
   },
@@ -54,9 +53,7 @@
     "introduce":"저작툴에서 저작된 책의 메타데이터를 관리하고 B2B 판매를 위한 쿠폰 코드를 생성합니다.\n또한, 서비스에서 필요한 정보를 제공합니다.",
     "cover_image":"public/img/olb_cms/cms.png",
     "screenshots":[
-      "public/img/olb_cms/cms_1.png",
-      "public/img/olb_cms/cms_2.png",
-      "public/img/olb_cms/cms_3.png"
+
     ],
     "work":"버전업에 따라서 추가기능 개발과 유지보수를 했습니다. 사용자의 편의성을 고려하여 추가 기능을 개발 하였고, 스토어 관리 메뉴와 콜렉션 관리 메뉴 등을 개발 하였습니다.",
     "range":"입사시 시스템은 구축되어 있었고 관리자 퇴사로 관리 및 개발 업무를 맡았습니다.",
