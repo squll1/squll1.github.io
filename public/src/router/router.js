@@ -16,6 +16,8 @@ var Router = Backbone.Router.extend({
 	home:function(){
 		this.viewContent.setBodyScroll(true);
 		this.viewContent.closeModal();
+
+		commonFunction.addHistory();
 	},
 	portfolio_info:function(project){
 		console.log(project);
@@ -27,6 +29,8 @@ var Router = Backbone.Router.extend({
 		}else{
 			this.viewPortfolioModal = new ViewPortfolioModal({id:project});
 		}
+
+		commonFunction.addHistory();
 	}
 });
 

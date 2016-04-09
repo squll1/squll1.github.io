@@ -32,8 +32,7 @@ var ViewPortfolioModal = Backbone.View.extend({
 	},
 	closeModal:function(){
 		console.log('closeModal');
-
-		if(history.length < 3){
+		if(commonFunction.getHistory() <= 1){
 			location.href = '';
 		}else{
 			history.back();
