@@ -64,7 +64,7 @@
     "link":"https://www.oxfordlearnersbookshelf.com/",
     "title":"Oxford Bookshelf",
     "date":"2015.12.01 ~",
-    "introduce":"이미 개발되어 있는 Bookshelf를 Release 4 부터 이어받아 개발하였습니다.\n새롭게 추가된 기능으로는 책을 단위별로 묶어서 기간을 두고 대여하는 기능, 책 읽기 진행 상태를 보여주는 기능 그리고 학습상태를 학부모나 선생님에게 보고 할 수 있도록 학습 데이터들을 다운 받는 기능이 추가되었습니다.\n\n현재 Release 4는 4월 중 적용될 예정입니다.",
+    "introduce":"이미 개발되어 있는 Bookshelf를 Release 4 부터 이어받아 개발하였습니다.\n새롭게 추가된 기능으로는 책을 단위별로 묶어서 기간을 두고 대여하는 기능, 책 읽기 진행 상태를 보여주는 기능 그리고 학습상태를 학부모나 선생님에게 보고 할 수 있도록 학습 데이터들을 다운 받는 기능이 추가되었습니다.",
     "cover_image":"public/img/bookshelf/icon.png",
     "screenshots":[
       "public/img/bookshelf/bookshelf_1.png",
